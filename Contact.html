@@ -7,6 +7,81 @@
     <title>Contacts</title>
 </head>
 <body>
+    <!--The Navigation Bar-->
+
+<header>
+    <nav>
+
+        <a href="index.html">HOME</a>
+        <a href="Projects.html">PROJECTS</a>
+        <a href="Services.html">SERVICES</a>
+        <a href="About.html">ABOUT</a>
+        <a href="Blog.html">BLOG</a>
+        <a href="Contact.html">CONTACT</a>
+    
+    </nav>
+    <main>
+        <section>
+          <h2><p>Drop me a line ...</p></h2>
+        </section>
+        <!--Section for contacting me-->
+        <section>
+          <form action="info.php" method="post">
+            <div>
+              <label for="name">Name*: </label> <br />
+              <input
+                type="text"
+                id="name"
+                name="Name"
+                required
+                placeholder="Enter your name"
+              />
+            </div>
+            <div>
+              <label for="email">Email*:</label> <br />
+              <input type="Email" id="email" name="email" placeholder="Enter email" required />
+            </div>
+  
+            <div>
+              <label for="phneNo">Tel</label> <br />
+              <input type="tel" name="number" id="phneNo" placeholder="Enter tel" />
+            </div>
+            <div>
+              <label for="project">Project:</label> <br />
+              <select name="Projects" id="project">
+                <option value="android">Web Developement</option>
+                <option value="embedded">Embeded system application</option>
+                <option value="IOT">Cybersecurity</option>
+                <option value="cyber">Data Science services</option>
+              </select>
+            </div>
+            <div>
+              <label for="text">Description</label> <br />
+              <textarea name="text" id="text" cols="30" rows="10">
+  comments </textarea
+              >
+            </div>
+            <div>
+              <input type="checkbox" name="subscribe" id="subscription" />
+              <label for="subscription"> subscribe for updates </label>
+            </div>
+            <input type="submit" value="Send messege" />
+          </form>
+        </section>
+      </main>
+  
+    <!--Footer Section-->
+<footer>
+    <ul>
+        <li><Github href="https://github.com/delight-coder">Github</a></li>
+        <li><a href="https://www.linkedin.com/in/delight-valerie-b3ab1a211/">LinkedIn</a></li>
+        <li><a href=">https://twitter.com/delight_valerie">Twitter</a></li>
+        <li><a href="https://www.instagram.com/delightvalerie/">Instagram</a></li>
+        <li><a href="delightvalerie@gmail.com">Mail</a></li>
+        <li><a href=https://medium.com/@delightvalerie">Medium</a></li>
+      
+    </ul>
+</footer>
     
 </body>
 </html>
