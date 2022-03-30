@@ -5,27 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacts</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!--The Navigation Bar-->
 
 <header>
-    <nav>
+  <nav>
 
-        <a href="index.html">HOME</a>
-        <a href="Projects.html">PROJECTS</a>
-        <a href="Services.html">SERVICES</a>
-        <a href="About.html">ABOUT</a>
-        <a href="Blog.html">BLOG</a>
-        <a href="Contact.html">CONTACT</a>
-    
-    </nav>
+    <a href="index.html">HOME</a>
+    <a href="Projects.html">PROJECTS</a>
+    <a href="Services.html">SERVICES</a>
+    <a href="About.html">ABOUT</a>
+    <a href="Blog.html">BLOG</a>
+    <a href="Contact.html">CONTACT</a>
+
+</nav>
     <main>
-        <section>
+        <div>
           <h2><p><b>Drop a comment....</b></p></h2>
-        </section>
+        </div>
         <!--Section for contacting me-->
-        <section>
+        <div>
           <form action="info.php" method="post">
             <div>
               <label for="name">Name*: </label> <br />
@@ -55,6 +56,7 @@
                 <option value="cyber">Data Science services</option>
               </select>
             </div>
+            
             <div>
               <label for="text">Description</label> <br />
               <textarea name="text" id="text" cols="30" rows="10">
@@ -67,20 +69,23 @@
             </div>
             <input type="submit" value="Send messege" />
           </form>
-        </section>
+      
       </main>
-  
+
     <!--Footer Section-->
 <footer>
-    <ul>
-        <li><Github href="https://github.com/delight-coder">Github</a></li>
+    <p>Delight <span>Valerie</span></p>
+    <div class="social">
+      <ul>
+        <li><a href="https://github.com/delight-coder"><i class="fa-brands fa-github"></i>Github</a></li>
         <li><a href="https://www.linkedin.com/in/delight-valerie-b3ab1a211/">LinkedIn</a></li>
         <li><a href=">https://twitter.com/delight_valerie">Twitter</a></li>
         <li><a href="https://www.instagram.com/delightvalerie/">Instagram</a></li>
         <li><a href="delightvalerie@gmail.com">Mail</a></li>
         <li><a href=https://medium.com/@delightvalerie">Medium</a></li>
-      
     </ul>
+    </div>
+    <p class="end">CopyRight By Delight <span>Valerie</span></p>
 </footer>
     
 </body>
