@@ -253,3 +253,39 @@ h5{
 	border: 2px solid #f9004d;
 	cursor: pointer;
 }
+
+.icon{
+	width: 38px;
+	height: 38px;
+}
+footer{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 100%;
+}
+.iconlist{ 
+	display: flex;
+	justify-content: space-around;
+	width: 30%;
+}
+footer i{
+	font-size: 40px;
+}
+.maincontact{
+	position: absolute;
+    display: inline-block;
+    outline: none;
+    padding: 100px 30px;
+	border-radius: 30px;
+	background-color:#f9004d;
+	color: white;
+	box-shadow: 0px 0px 5px black, 0px 0px 15px #f9004d;
+    display: flex;
+	align-items: center;
+	background: none;
+	margin-left: 500px;
+	margin-top: 100px;
+}
+
